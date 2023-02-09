@@ -1,0 +1,273 @@
+body{
+    background-color: #f4f4f4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.asterisk{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: rgb(142, 22, 22);
+    font-size: 20px;
+}
+.main-form .asterisk {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: rgb(142, 22, 22);
+    font-size: 30px;
+}
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+/* .form-control{
+    position: relative;
+} */
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-brand{
+    font-size: 1em;
+}
+
+.nav > li >a ,
+.navbar-brand{
+    padding: 15px 12px;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu{
+    color: #fff;
+    background-color: rgb(190, 68, 190);
+}
+.dropdown-menu{
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+
+}
+.dropdown-menu >li >a{
+    color: #fff;
+    padding: 10px;
+}
+
+
+.nice-message{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-left: 5px solid #080;
+}
+
+.form-control{
+    position: relative;
+}
+
+.show-pass{
+    position: absolute;
+    top: 6px;
+    right: -30px;
+}
+
+.main-table td{
+    background-color: #fff;
+    vertical-align: middle !important;
+}
+.main-table .btn{
+    padding: 2px 10px;
+}
+.main-table tr:first-child td{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+}
+.activate{
+    margin-left: 5px;
+}
+/* start header */
+.upper-bar{
+    padding: 10px;
+    background-color: #fff;
+}
+.my-image {
+	width: 32px;
+	height: 32px;
+}
+.login-page [data-class="login"].selected {
+	color: #337AB7;
+}
+
+.login-page [data-class="signup"].selected {
+	color: #5cb85c;
+}
+
+.login-page h1 {
+	color: #C0C0C0;
+}
+.login-page form{
+    max-width: 380px;
+    margin: auto;
+}
+
+.login-page h1 span{
+    cursor: pointer;;
+}
+.login-page form input{
+    margin-bottom: 10px;
+}
+.login-page .signup{
+    display: none;
+}
+.the-errors .msg {
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #919191;
+}
+.the-errors .error {
+    border-left: 5px solid #cd6858
+}
+.login-page form,
+.the-errors {
+	max-width: 380px;
+	margin: auto;
+}
+/* end header */
+/* start categories page  */
+.item-box{
+    position: relative;
+}
+.item-box .price-tag{
+    position: absolute;
+    background-color: #bebebe;
+    font-weight: bold;
+    color: #fff;
+    padding: 2px 10px;
+    left: 0;
+    top: 10px;
+}
+
+/* end categories page  */
+
+/* start profile page */
+.information{
+    margin: 20px;
+}
+.information ul{
+    margin: 0;
+    padding: 0;
+}
+.information .btn{
+    margin-top: 10px;
+}
+.information ul li{
+    padding: 10px;
+}
+.information ul li:nth-child(odd){
+    background-color: #eee;
+}
+.information ul li span{
+    display: inline-block;
+    width: 120px;
+}
+
+.thumbnail .date{
+    text-align: right;
+    font-size: 13px;
+    color: #aaa;
+    font-weight: bold;
+}
+/* end profile page */
+
+/* start show items page */
+.item-box{
+    position: relative;
+}
+.item-info p {
+    padding: 10px;
+}
+.item-info h2 {
+    padding: 10px;
+    margin: 0;
+}
+.item-info ul li {
+    padding: 10px 0;
+}
+.item-info ul li:nth-child(odd){
+    background-color: #e8e8e8;
+}
+.item-info ul li span{
+    display: inline-block;
+    width: 120px;
+}
+.add-comment h3{
+    margin: 0;
+}
+.add-comment textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.comment-box{
+    margin-bottom: 20px;
+}
+.comment-box img{
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.comment-box .lead {
+	background-color: #e0e0e0;
+	position: relative;
+	padding: 10px;
+	margin-top: 25px;
+}
+.comment-box .lead:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
+.item-box .approve-status {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #b85a5a;
+    color: #FFF;
+    padding: 3px 5px;
+}
+.item-box .caption p {
+	height: 44px;
+	max-height: 44px;
+}
+.tags-items a {
+    display: inline-block;
+    background-color: #e2e2e2;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #666;
+    margin-right: 5px;
+}
+
+/* end show items page */
+/* start our custom */
+.custom-hr{
+    border-top:  1px solid #c9c9c9;
+}
+/* end our custom */
